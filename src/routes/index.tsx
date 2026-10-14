@@ -11,7 +11,7 @@ export const Route=createFileRoute('/')({
 function Brand(){return <span className="brand"><img src={brandIcon} alt="" width={30} height={34}/><span>Binge<em>Karo</em></span></span>}
 function Index(){
  const [view,setView]=useState('Home'); const [genre,setGenre]=useState('All'); const [language,setLanguage]=useState('All languages'); const [query,setQuery]=useState(''); const [searchOpen,setSearchOpen]=useState(false); const [saved,setSaved]=useState<number[]>([]); const [selected,setSelected]=useState<Title|null>(null); const [preview,setPreview]=useState(false); const [premium,setPremium]=useState(false); const [mobile,setMobile]=useState(false); const [slide,setSlide]=useState(0); const catalog=useRef<HTMLDivElement>(null);
- const active=slide===0?featured:slide===1?titles[2]:titles[1];
+ const active=(slide===0?featured:slide===1?titles[2]:titles[1])??featured;
  const visible=filterTitles([...titles,...(view==='My List'?[featured]:[])],genre,query,view,language,saved);
  const toggleSaved=(id:number)=>setSaved(old=>old.includes(id)?old.filter(n=>n!==id):[...old,id]);
  const changeView=(next:string)=>{setView(next);setGenre('All');setQuery('');setMobile(false);};

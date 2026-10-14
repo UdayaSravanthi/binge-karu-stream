@@ -76,7 +76,7 @@
 .movie-card:hover img { transform:scale(1.045); }
 .poster::after { content:''; position:absolute; inset:0; background:var(--poster-shade); }
 .poster-badge { position:absolute; top:10px; left:9px; z-index:2; color:var(--primary-foreground); background:var(--primary); padding:3px 6px; font-size:8px; font-weight:700; letter-spacing:1px; border-radius:2px; }
-.poster-title { position:absolute; z-index:2; left:8px; right:8px; bottom:14px; text-align:center; font-family:var(--font-display); font-size:23px; line-height:1.03; text-transform:uppercase; font-weight:850; text-shadow:0 2px 4px var(--overlay); }
+.poster-title { position:absolute; z-index:2; left:8px; right:8px; bottom:14px; text-align:center; font-family:var(--font-display); font-size:23px; line-height:1.03; text-transform:uppercase; font-weight:850; color:oklch(0.97 0.01 90); text-shadow:0 2px 6px var(--overlay); }
 .movie-name { margin-top:11px; font-size:13px; font-weight:600; }
 .movie-meta { font-size:10px; color:var(--muted-foreground); margin-top:5px; }
 .mood-section { margin-top:38px; }

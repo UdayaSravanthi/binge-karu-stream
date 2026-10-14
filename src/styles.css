@@ -39,7 +39,7 @@
 .main-nav button { height:100%; position:relative; padding:0 4px; font-size:14px; }
 .main-nav button[data-active=true]::after { content:''; position:absolute; bottom:17px; left:3px; right:3px; height:2px; background:var(--primary); }
 .header-actions { margin-left:auto; display:flex; align-items:center; gap:19px; }
-.profile { width:33px; height:33px; border-radius:50%; background:color-mix(in oklch,var(--highlight) 16%,var(--card)); display:grid; place-items:center; color:var(--highlight-ink); font-size:12px; border:1px solid color-mix(in oklch,var(--highlight) 40%,var(--border)); }
+.profile { width:33px; height:33px; border-radius:50%; background:color-mix(in oklch,var(--highlight) 34%,var(--card)); display:grid; place-items:center; color:var(--highlight-ink); font-weight:700; font-size:12px; border:1px solid color-mix(in oklch,var(--highlight) 62%,var(--border)); }
 .premium-button { background:var(--highlight); border-color:color-mix(in oklch,var(--highlight) 72%,var(--foreground)); color:var(--foreground); font-weight:700; }
 .premium-button:hover { background:color-mix(in oklch,var(--highlight) 86%,var(--foreground)); }
 .hero { height:575px; position:relative; isolation:isolate; }

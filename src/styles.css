@@ -17,10 +17,10 @@
  --radius-sm: 4px; --radius-md: 6px; --radius-lg: 8px; --radius-xl: 8px;
 }
 :root {
- --background: oklch(0.145 0.006 265); --foreground: oklch(0.975 0.003 70);
- --card: oklch(0.19 0.008 265); --primary: oklch(0.65 0.222 26); --primary-foreground: oklch(1 0 0);
- --secondary: oklch(0.25 0.008 265); --muted-foreground: oklch(0.69 0.012 265);
- --border: oklch(0.32 0.008 265); --highlight: oklch(0.82 0.135 85); --overlay: oklch(0.08 0 0);
+ --background: oklch(0.955 0.022 88); --foreground: oklch(0.29 0.05 215);
+ --card: oklch(0.925 0.026 90); --primary: oklch(0.62 0.16 55); --primary-foreground: oklch(0.985 0.005 90);
+ --secondary: oklch(0.895 0.03 92); --muted-foreground: oklch(0.48 0.04 225);
+ --border: oklch(0.845 0.028 88); --highlight: oklch(0.52 0.19 355); --overlay: oklch(0.22 0.04 225);
  --hero-shade: linear-gradient(90deg, var(--background) 0%, color-mix(in oklch,var(--background) 85%, transparent) 22%, color-mix(in oklch,var(--background) 10%, transparent) 68%);
  --hero-bottom: linear-gradient(0deg,var(--background) 2%,transparent 65%);
  --poster-shade: linear-gradient(0deg,color-mix(in oklch,var(--overlay) 98%,transparent),transparent 70%);
@@ -76,7 +76,7 @@
 .movie-card:hover img { transform:scale(1.045); }
 .poster::after { content:''; position:absolute; inset:0; background:var(--poster-shade); }
 .poster-badge { position:absolute; top:10px; left:9px; z-index:2; color:var(--primary-foreground); background:var(--primary); padding:3px 6px; font-size:8px; font-weight:700; letter-spacing:1px; border-radius:2px; }
-.poster-title { position:absolute; z-index:2; left:8px; right:8px; bottom:14px; text-align:center; font-family:var(--font-display); font-size:23px; line-height:1.03; text-transform:uppercase; font-weight:850; text-shadow:0 2px 4px var(--overlay); }
+.poster-title { position:absolute; z-index:2; left:8px; right:8px; bottom:14px; text-align:center; font-family:var(--font-display); font-size:23px; line-height:1.03; text-transform:uppercase; font-weight:850; color:oklch(0.97 0.01 90); text-shadow:0 2px 6px var(--overlay); }
 .movie-name { margin-top:11px; font-size:13px; font-weight:600; }
 .movie-meta { font-size:10px; color:var(--muted-foreground); margin-top:5px; }
 .mood-section { margin-top:38px; }

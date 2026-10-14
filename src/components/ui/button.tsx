@@ -9,6 +9,10 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
+        cinema: "bg-primary text-primary-foreground hover:bg-primary/85 font-semibold",
+        glass: "bg-secondary/80 text-secondary-foreground border border-border/60 hover:bg-secondary",
+        nav: "text-muted-foreground rounded-none hover:text-foreground data-[active=true]:text-foreground",
+        filter: "border border-border bg-background text-muted-foreground rounded-full hover:bg-secondary data-[active=true]:bg-foreground data-[active=true]:text-background data-[active=true]:border-foreground",
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
         destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
         outline:

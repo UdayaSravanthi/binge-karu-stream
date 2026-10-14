@@ -21,7 +21,7 @@
  --card: oklch(0.946 0.026 306); --primary: oklch(0.54 0.24 297); --primary-foreground: oklch(0.99 0.006 305);
  --secondary: oklch(0.921 0.038 304); --muted-foreground: oklch(0.42 0.062 296);
  --border: oklch(0.878 0.048 303); --highlight: oklch(0.655 0.155 58); --highlight-ink: oklch(0.45 0.135 55); --overlay: oklch(0.245 0.085 290);
- --hero-shade: linear-gradient(90deg, var(--background) 0%, color-mix(in oklch,var(--background) 85%, transparent) 22%, color-mix(in oklch,var(--background) 10%, transparent) 68%);
+ --hero-shade: linear-gradient(90deg, var(--background) 0%, color-mix(in oklch,var(--background) 92%, transparent) 30%, color-mix(in oklch,var(--background) 22%, transparent) 72%);
  --hero-bottom: linear-gradient(0deg,var(--background) 2%,transparent 65%);
  --poster-shade: linear-gradient(0deg,color-mix(in oklch,var(--overlay) 98%,transparent),transparent 70%);
 }
@@ -39,7 +39,7 @@
 .main-nav button { height:100%; position:relative; padding:0 4px; font-size:14px; }
 .main-nav button[data-active=true]::after { content:''; position:absolute; bottom:17px; left:3px; right:3px; height:2px; background:var(--primary); }
 .header-actions { margin-left:auto; display:flex; align-items:center; gap:19px; }
-.profile { width:33px; height:33px; border-radius:50%; background:var(--secondary); display:grid; place-items:center; color:var(--highlight-ink); font-size:12px; border:1px solid var(--border); }
+.profile { width:33px; height:33px; border-radius:50%; background:color-mix(in oklch,var(--highlight) 16%,var(--card)); display:grid; place-items:center; color:var(--highlight-ink); font-size:12px; border:1px solid color-mix(in oklch,var(--highlight) 40%,var(--border)); }
 .premium-button { background:var(--highlight); border-color:color-mix(in oklch,var(--highlight) 72%,var(--foreground)); color:var(--foreground); font-weight:700; }
 .premium-button:hover { background:color-mix(in oklch,var(--highlight) 86%,var(--foreground)); }
 .hero { height:575px; position:relative; isolation:isolate; }
@@ -78,7 +78,7 @@
 .poster img { width:100%; height:100%; object-fit:cover; transition:transform .4s; }
 .movie-card:hover img { transform:scale(1.045); }
 .poster::after { content:''; position:absolute; inset:0; background:var(--poster-shade); }
-.poster-badge { position:absolute; top:10px; left:9px; z-index:2; color:var(--foreground); background:var(--highlight); padding:3px 6px; font-size:8px; font-weight:700; letter-spacing:1px; border-radius:2px; }
+.poster-badge { position:absolute; top:10px; left:9px; z-index:2; color:var(--primary-foreground); background:var(--primary); padding:3px 6px; font-size:8px; font-weight:700; letter-spacing:1px; border-radius:2px; }
 .poster-title { position:absolute; z-index:2; left:8px; right:8px; bottom:14px; text-align:center; font-family:var(--font-display); font-size:23px; line-height:1.03; text-transform:uppercase; font-weight:850; color:oklch(0.975 0.011 303.1); text-shadow:0 2px 6px var(--overlay); }
 .movie-name { margin-top:11px; font-size:13px; font-weight:600; }
 .movie-meta { font-size:10px; color:var(--muted-foreground); margin-top:5px; }

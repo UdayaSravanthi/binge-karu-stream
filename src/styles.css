@@ -89,6 +89,8 @@
 .mood-button>svg { margin-left:auto; color:var(--muted-foreground); }
 .catalog-note { font-size:11px; color:var(--muted-foreground); margin-top:32px; }
 footer { border-top:1px solid var(--border); padding:27px 4.5%; display:flex; align-items:center; justify-content:space-between; color:var(--muted-foreground); font-size:11px; }
+.social-link { display:inline-flex; align-items:center; gap:7px; color:var(--muted-foreground); font-size:12px; }
+.social-link:hover { color:var(--primary); }
 footer .brand { font-size:18px; color:var(--foreground); } footer .brand img { width:22px;height:25px; }
 .search-panel { margin-bottom:24px; display:flex; align-items:center; gap:12px; border-bottom:1px solid var(--border); padding:14px 0; }
 .search-panel input { background:transparent; outline:none; width:100%; font-size:17px; }

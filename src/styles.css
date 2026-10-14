@@ -17,10 +17,10 @@
  --radius-sm: 4px; --radius-md: 6px; --radius-lg: 8px; --radius-xl: 8px;
 }
 :root {
- --background: oklch(0.964 0.013 306); --foreground: oklch(0.297 0.086 290.6);
- --card: oklch(0.941 0.021 306.8); --primary: oklch(0.549 0.173 295.7); --primary-foreground: oklch(0.988 0.007 304.2);
- --secondary: oklch(0.916 0.029 303.1); --muted-foreground: oklch(0.467 0.044 296.5);
- --border: oklch(0.88 0.037 303.1); --highlight: oklch(0.712 0.148 53.5); --overlay: oklch(0.256 0.078 290.6);
+ --background: oklch(0.968 0.016 305); --foreground: oklch(0.283 0.098 289);
+ --card: oklch(0.946 0.026 306); --primary: oklch(0.54 0.24 297); --primary-foreground: oklch(0.99 0.006 305);
+ --secondary: oklch(0.921 0.038 304); --muted-foreground: oklch(0.455 0.058 296);
+ --border: oklch(0.878 0.048 303); --highlight: oklch(0.735 0.17 55); --overlay: oklch(0.245 0.085 290);
  --hero-shade: linear-gradient(90deg, var(--background) 0%, color-mix(in oklch,var(--background) 85%, transparent) 22%, color-mix(in oklch,var(--background) 10%, transparent) 68%);
  --hero-bottom: linear-gradient(0deg,var(--background) 2%,transparent 65%);
  --poster-shade: linear-gradient(0deg,color-mix(in oklch,var(--overlay) 98%,transparent),transparent 70%);

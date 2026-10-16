@@ -5,5 +5,5 @@
 - [x] Brighten the violet palette: richer violet buttons, stronger apricot highlights, light background kept.
 - [x] Replace the bright apricot accent with a darker caramel/amber that pairs with the violet.
 - [x] Sync the project to a GitHub repository (user connected it in Project settings → Git; confirmed the files arrived).
-- [x] Mobile-only layout: Go Premium, profile, and the language option placed where phone screens need them (language now sits under Go Premium, above the featured story).
+- [x] Mobile-only layout: Go Premium, profile, and the language option placed where phone screens need them (language now sits just below the genre chips row).
 - [ ] Ongoing: update the website as BingeKaro identity and features change (waits on new details from you).

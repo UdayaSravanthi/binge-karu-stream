@@ -122,12 +122,13 @@ footer .brand { font-size:18px; color:var(--foreground); } footer .brand img { w
  .mobile-language { display:flex; align-items:center; gap:8px; margin:-14px 0 26px; font-size:12px; font-weight:600; color:var(--muted-foreground); }
  .mobile-language svg { color:var(--primary); flex-shrink:0; }
  .mobile-language select { color:var(--foreground); background:var(--card); border:1px solid var(--border); border-radius:999px; padding:6px 12px; font-size:12px; font-weight:600; outline:none; }
- .browse-bar { flex-wrap:wrap; gap:8px 7px; overflow:visible; margin-bottom:20px; }
- .browse-bar button { flex:1 1 auto; min-width:0; height:32px; padding:0 9px; font-size:11px; justify-content:center; white-space:nowrap; }
+ .browse-bar { flex-wrap:wrap; gap:8px 6px; overflow:visible; margin-bottom:20px; }
+ .browse-bar button { flex:1 1 auto; min-width:0; height:32px; padding:0 5px; font-size:11px; justify-content:center; white-space:nowrap; }
  .mood-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
  .hero-buttons { flex-wrap:wrap; gap:9px; }
  .hero-buttons button { padding:0 18px; }
  .browse-bar .language { display:none; }
 }
+@media(max-width:359px) { .browse-bar button { flex:1 1 30%; } }
 @media(prefers-reduced-motion:reduce) { *,*::before,*::after { transition:none!important; animation:none!important; } }
 @media(max-width:640px) { :root { --hero-shade: linear-gradient(90deg, var(--background) 0%, color-mix(in oklch,var(--background) 95%, transparent) 50%, color-mix(in oklch,var(--background) 55%, transparent) 100%); } .browse-bar { -webkit-mask-image:none; mask-image:none; } }

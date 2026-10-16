@@ -122,6 +122,8 @@ footer .brand { font-size:18px; color:var(--foreground); } footer .brand img { w
  .mobile-language { display:flex; align-items:center; gap:8px; margin:-14px 0 26px; font-size:12px; font-weight:600; color:var(--muted-foreground); }
  .mobile-language svg { color:var(--primary); flex-shrink:0; }
  .mobile-language select { color:var(--foreground); background:var(--card); border:1px solid var(--border); border-radius:999px; padding:6px 12px; font-size:12px; font-weight:600; outline:none; }
+ .browse-bar { flex-wrap:wrap; gap:8px 7px; overflow:visible; margin-bottom:20px; }
+ .browse-bar button { flex:1 1 auto; min-width:0; height:32px; padding:0 9px; font-size:11px; justify-content:center; white-space:nowrap; }
  .browse-bar .language { display:none; }
 }
 @media(prefers-reduced-motion:reduce) { *,*::before,*::after { transition:none!important; animation:none!important; } }

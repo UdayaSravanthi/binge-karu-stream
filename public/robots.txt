@@ -12,3 +12,5 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://binge-karu-stream.lovable.app/sitemap.xml

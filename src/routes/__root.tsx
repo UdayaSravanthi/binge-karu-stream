@@ -78,14 +78,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "BingeKaro" },
-      { name: "description", content: "Stories for your kind of break." },
+      { title: "BingeKaro: Hindi, Telugu & English Web Series and Movies" },
+      {
+        name: "description",
+        content: "Original Hindi, Telugu and English web series and movies on BingeKaro.",
+      },
       { name: "author", content: "BingeKaro" },
-      { property: "og:title", content: "BingeKaro" },
-      { property: "og:description", content: "Stories for your kind of break." },
+      { property: "og:site_name", content: "BingeKaro" },
+      { property: "og:locale", content: "en_IN" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      
     ],
     links: [
       {
@@ -93,7 +95,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         href: appCss,
       },
       { rel: "icon", href: "/favicon.png", type: "image/png" },
-      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;600;700;800&display=swap" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;600;700;800&display=swap",
+      },
     ],
   }),
   shellComponent: RootShell,

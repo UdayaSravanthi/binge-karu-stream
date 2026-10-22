@@ -6,4 +6,5 @@
 - [x] Replace the bright apricot accent with a darker caramel/amber that pairs with the violet.
 - [x] Sync the project to a GitHub repository (user connected it in Project settings → Git; confirmed the files arrived).
 - [x] Mobile-only layout: Go Premium, profile, and the language option placed where phone screens need them (all six chips show without scrolling; the language dropdown sits centred on its own row below the chips, with no "Language" label).
+- [x] SEO and copy fixes: real pages for Movies, Series, Originals, My List, About and each title; sitemap, canonical tags, schema markup, FAQ, launch banner.
 - [ ] Ongoing: update the website as BingeKaro identity and features change (waits on new details from you).
